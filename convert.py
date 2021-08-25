@@ -1,10 +1,10 @@
 import json
 import csv
 
-with open('mock_data_900.json') as json_file:
+with open('mock_data_1000.json') as json_file:
     jsondata = json.load(json_file)
 
-data_file = open('data_output_900.csv', 'w', newline='')
+data_file = open('data_output_1000.csv', 'w', newline='')
 csv_writer = csv.writer(data_file)
 
 count = 0
